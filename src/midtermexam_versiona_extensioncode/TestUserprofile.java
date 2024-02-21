@@ -3,10 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package midtermexam_versiona_extensioncode;
-
+import java.util.Scanner;
 /**
  *
- * @author sanju
+ * @author sanjanana
  */
 public class TestUserprofile {
     
@@ -31,6 +31,9 @@ public class TestUserprofile {
         int genreChoice = scanner.nextInt();
 
         
+        scanner.nextLine();
+
+        
         String genre;
         switch (genreChoice) {
             case 1:
@@ -53,7 +56,7 @@ public class TestUserprofile {
                 break;
         }
 
-       
+        
         System.out.println("\nUser profile created successfully!");
         System.out.println("Name: " + name);
         System.out.println("Favorite Genre: " + genre);
@@ -61,3 +64,4 @@ public class TestUserprofile {
 }
 
 
+    
